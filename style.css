@@ -10,7 +10,7 @@ body {
 	padding: 0;
 	background: #fa7d1e;
 	font-family: "Open Sans", sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	color: #00078a;
 }
 
@@ -283,6 +283,7 @@ a:hover {
     border: 3px solid #00078a;
     border-radius: 10px;
 }
+
 
 
 
