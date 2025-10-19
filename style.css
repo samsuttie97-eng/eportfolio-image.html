@@ -236,11 +236,15 @@ a:hover {
 }
 
 .box-style {
-	background: #d2d4fa;
-	text-align: center;
-	border: 4px;
-	border-color: #fa7d1e;
-	border-style: solid; 
+    background: #d2d4fa;
+    text-align: center;
+    border: 4px solid #fa7d1e;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 100%;
 }
 
 .box-style h2 {
@@ -274,6 +278,7 @@ a:hover {
 	color: #fa7d1e;
 
 }
+
 
 
 
