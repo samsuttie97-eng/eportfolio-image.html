@@ -1,112 +1,198 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
-Name       : Vestibule 
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20130406
--->
-
-<!-- Comments are in ALL CAPS -->
-
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-
-<!-- SET THE PAGE TITLE INSIDE THE TITLE TAGS BELOW -->
-<title>title of this page</title>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Editing Projects</title>
 <link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<style>
+/* GENERAL PAGE STYLES */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    background-color: #ffd2ab;
+    color: #00078a;
+}
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #fa7d1e;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* NAVIGATION */
+#menu-wrapper {
+    background: #fa7d1e;
+    padding: 10px 0;
+}
+
+#menu ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #00078a;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#menu a:hover {
+    color: #fff;
+    background: #bd5d15;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* PROJECT BOXES */
+#three-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.box-style {
+    background: #d2d4fa;
+    text-align: center;
+    border: 4px solid #fa7d1e;
+    border-radius: 10px;
+    margin: 20px;
+    width: 400px;
+    padding: 20px;
+}
+
+.box-style h2 {
+    color: #fa7d1e;
+    margin-bottom: 15px;
+}
+
+.project-image {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 80%;
+    height: auto;
+    border: 3px solid #00078a;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 15px;
+    background: #00078a;
+    color: #d2d4fa;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #fa7d1e;
+    border-radius: 5px;
+}
+
+.button:hover {
+    color: #fa7d1e;
+    background: #d2d4fa;
+}
+
+/* FOOTER */
+#footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #317082;
+    color: #fff;
+}
+
+#footer a {
+    color: #ffd2ab;
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+</style>
 </head>
-
 <body>
+
 <div id="wrapper">
-<!-- START OF THE NAVIGATION SECTION.  DO NOT CHANGE ANYTHING ABOVE THIS LINE EXCEPT TO SET THE TITLE. -->
 
-
-	<div id="menu-wrapper">
-		<div id="menu" class="container">
-			<ul>
-				<!-- NAVIGATION MENU.  THERE SHOULD BE ONE LIST ITEM FOR EACH BUTTON IN YOUR NAVIGATION BAR. -->
-                <!-- REPLACE THE # IN THE LINK WITH THE FILE NAME OF THE APPROPRIATE PAGE.  -->
+    <!-- NAVIGATION -->
+    <div id="menu-wrapper">
+        <div id="menu" class="container">
+            <ul>
                 <li><a href="https://samsuttie97-eng.github.io/eportfolio/">About</a></li>
-				<li><a href="https://samsuttie97-eng.github.io/eportfolio-image.html/">Image Editing</a></li>
-				<li><a href="https://samsuttie97-eng.github.io/eportfolio-webdesign/">Web Design</a></li>
-				<li><a href="https://samsuttie97-eng.github.io/eportfolio-videoproduction/">Video Production</a></li>
-				<li><a href="https://samsuttie97-eng.github.io/eportfolio-animation/">Animation</a></li>
-				<li><a href="https://samsuttie97-eng.github.io/eportfolio-screencast/">Screencast</a></li>
-				<li><a href="https://samsuttie97-eng.github.io/eportfolio-contactme/">Contact Me</a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="logo" class="container">
-		<!-- THIS IS WHERE YOU CUSTOMIZE THE HEADER FOR EACH PAGE. -->
+                <li><a href="https://samsuttie97-eng.github.io/eportfolio-image.html/">Image Editing</a></li>
+                <li><a href="https://samsuttie97-eng.github.io/eportfolio-webdesign/">Web Design</a></li>
+                <li><a href="https://samsuttie97-eng.github.io/eportfolio-videoproduction/">Video Production</a></li>
+                <li><a href="https://samsuttie97-eng.github.io/eportfolio-animation/">Animation</a></li>
+                <li><a href="https://samsuttie97-eng.github.io/eportfolio-screencast/">Screencast</a></li>
+                <li><a href="https://samsuttie97-eng.github.io/eportfolio-contactme/">Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div id="logo" class="container">
         <h1>Image Editing</h1>
-		<!-- THIS IS WHERE YOU CUSTOMIZE THE SUBHEADER FOR EACH PAGE. -->
-        <p>I created digital book cover for From Grape to Glass: The History of Wine Making using GIMP for photo editing and raster design. Using Inkscape, I created an original logo for The Rat Trap Pizzeria to demonstrate proficiency in vector graphic design.</p>
-	</div>
-	<div id="page" class="container">
-		<div>
-			<div class="entry">
-				<!-- THIS IS WHERE YOU CUSTOMIZE THE INTRODUCTORY PARAGRAPH FOR EACH PAGE. -->
-                <p> The purpose of this e-portfolio is to showcase my design of multimedia development skills. I am an aspiring instructional designer with a background in psychology and early childhood development. I enjoy creating engaging, interactive learning experiences and digital content, combining creativity with technology to support effective learning.</p>
-			</div>
-		</div>
-	</div>
-    
-    
-<!-- END OF THE NAVIGATION SECTION. -->
-
-<!-- START OF THE CONTENT SECTION. -->
-
-<!-- ON OTHER PAGES, LIKE THE PROJECT PAGES, YOU WILL TAKE OUT EVERYTHING BETWEEN HERE AND THE END OF THE CONTENT SECTION AND REPLACE IT WITH THE PROJECT CONTENT. -->
-    
-    
-    
-    
-	<!-- Row 1 -->
-<div id="three-column" class="container">
-  <div class="tbox1">
-    <div class="box-style">
-      <div class="content">
-        <h2>Image Editing</h2>
-        <p>I designed a digital book cover for From Grape to Glass: The History of Wine Making using GIMP, where I applied photo editing techniques, adjusted color composition, and utilized raster design tools to create a visually engaging and professional cover that reflects the theme of the book.</p>
-        <a href="image.html" class="button">Learn More</a>
-      </div>
+        <p>I created a digital book cover for <em>From Grape to Glass: The History of Wine Making</em> using GIMP for photo editing and raster design. Using Inkscape, I created an original logo for The Rat Trap Pizzeria to demonstrate proficiency in vector graphic design.</p>
     </div>
-  </div>
-</div>
 
-<!-- Row 2 -->
-<div id="three-column" class="container">
-  <div class="tbox1">
-    <div class="box-style">
-      <div class="content">
-        <h2>Web Design</h2>
-        <p>In addition, I created an original logo for The Rat Trap Pizzeria using Inkscape, demonstrating my proficiency in vector graphic design. I focused on clean lines, scalable graphics, and brand-appropriate imagery to produce a logo that is versatile for digital and print applications.</p>
-        <a href="web.html" class="button">Learn More</a>
-      </div>
+    <!-- INTRODUCTION -->
+    <div id="page" class="container">
+        <p>The purpose of this e-portfolio is to showcase my multimedia development skills. I am an aspiring instructional designer with a background in psychology and early childhood development. I enjoy creating engaging, interactive learning experiences and digital content, combining creativity with technology to support effective learning.</p>
     </div>
-  </div>
+
+    <!-- PROJECT ROW 1: Image Editing -->
+    <div id="three-column" class="container">
+        <div class="box-style">
+            <h2>Image Editing</h2>
+            <img src="images/bookcover.jpg" alt="From Grape to Glass book cover" class="project-image">
+            <p>I designed a digital book cover for <em>From Grape to Glass: The History of Wine Making</em> using GIMP, applying photo editing techniques, adjusting color composition, and utilizing raster design tools to create a visually engaging and professional cover.</p>
+            <a href="image.html" class="button">Learn More</a>
+        </div>
+    </div>
+
+    <!-- PROJECT ROW 2: Logo Design -->
+    <div id="three-column" class="container">
+        <div class="box-style">
+            <h2>Web Design / Logo</h2>
+            <img src="images/rattrap-logo.png" alt="The Rat Trap Pizzeria logo" class="project-image">
+            <p>I created an original logo for The Rat Trap Pizzeria using Inkscape, demonstrating proficiency in vector graphic design. Focused on clean lines, scalable graphics, and brand-appropriate imagery for digital and print applications.</p>
+            <a href="web.html" class="button">Learn More</a>
+        </div>
+    </div>
+
 </div>
 
-    
-    
-<!-- END OF THE CONTENT SECTION.  BELOW YOU CAN CUSTOMIZE YOUR FOOTER. -->
-</div>
-
+<!-- FOOTER -->
 <div id="footer">
-	<!-- START FOOTER -->
-	<p>© 2025 Samantha Suttie. All rights reserved. LinkedIn <a href="https://www.linkedin.com/in/samantha-suttie-21443320a/">SamanthaSuttie</a>.</p>
-    <!-- END FOOTER -->
+    <p>© 2025 Samantha Suttie. All rights reserved. LinkedIn <a href="https://www.linkedin.com/in/samantha-suttie-21443320a/">SamanthaSuttie</a>.</p>
 </div>
 
 </body>
