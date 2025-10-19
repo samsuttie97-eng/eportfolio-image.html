@@ -221,7 +221,7 @@ a:hover {
 #three-column .tbox1 {
   float: center;
   width: 100%; /* change this number for how wide you want it */
-  height: 500px;
+  height: 300px;
   margin-right: 0;
   margin-left: 0;
 }
@@ -279,6 +279,7 @@ a:hover {
 	color: #fa7d1e;
 
 }
+
 
 
 
